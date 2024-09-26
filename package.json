@@ -1,0 +1,37 @@
+{
+  "name": "rest-express-typescript",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run transpile && node server.js",
+    "dev": "nodemon server.ts",
+    "transpile": "tsc"
+  },
+  "keywords": [
+    "learn",
+    "typescript",
+    "rest-api"
+  ],
+  "author": {
+    "name": "Jhontri Boyke",
+    "email": "jhontriboyke@gmail.com",
+    "url": "https://www.github.com/jhontriboyke"
+  },
+  "license": "MIT",
+  "description": "Learn TypeScript by building simple REST API",
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^5.0.0",
+    "concurrently": "^9.0.1",
+    "nodemon": "^3.1.7",
+    "prisma": "^5.20.0",
+    "ts-node": "^10.9.2"
+  }
+}
